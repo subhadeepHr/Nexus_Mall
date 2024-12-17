@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/xampp/htdocs/nexus/app/user_management/page.js"],"sourcesContent":["\"use client\"\r\n\r\nimport withAuth from \"@/lib/withAuth\";\r\n\r\n\r\n\r\nconst User_Management = () => {\r\nreturn(\r\n  <>\r\n    <p>ss</p>\r\n  </>\r\n)\r\n}\r\n\r\nexport default withAuth(Patch_Management);"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAMA,MAAM,kBAAkB;IACxB,qBACE;kBACE,cAAA,6LAAC;sBAAE;;;;;;;AAGP;KANM;6CAQS,CAAA,GAAA,kHAAA,CAAA,UAAQ,AAAD,EAAE"}},
+    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

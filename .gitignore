@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 node_modules
 node_modules
+=======
+/node_modules
+>>>>>>> 8dd798f (source code chnages done)
 /backendApi/.phpunit.cache
 /backendApi/node_modules
 /backendApi/public/build
