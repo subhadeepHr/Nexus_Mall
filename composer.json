@@ -1,0 +1,5 @@
+{
+    "require": {
+        "artisaninweb/laravel-soap": "^0.2.5"
+    }
+}

@@ -1,0 +1,27 @@
+/* eslint-disable react/display-name */
+
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
+import api from './axios';
+
+const withAuth = (WrappedComponent) => {
+    return (props) => {
+        const router = useRouter();
+
+        useEffect(() => {
+            const checkAuth = async () => {
+                try {
+                    await api.get('/user');
+                } catch (err) {
+                    router.push('/');
+                }
+            };
+
+            checkAuth();
+        }, [router]);
+
+        return <WrappedComponent {...props} />;
+    };
+};
+
+export default withAuth;
